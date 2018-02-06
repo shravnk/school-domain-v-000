@@ -20,6 +20,8 @@ class School
   end
 
   def sort
-    @roster.map{|grade, grade_array| [grade, grade_array.sort]}
+    sorted = {}
+    @roster.map{|grade, grade_array| sorted[grade] = grade_array.sort}
+    sorted
   end
 end
