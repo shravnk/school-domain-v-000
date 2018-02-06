@@ -23,4 +23,4 @@ class School
 end
 
 mues = School.new("mtown upper elementary")
-puts mues.roster
+puts mues.name
