@@ -17,4 +17,4 @@ class School
 end
 
 mues = School.new("mtown upper elementary")
-puts mues.instance_variables
+puts mues.@name
