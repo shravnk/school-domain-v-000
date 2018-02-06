@@ -1,7 +1,7 @@
 class School
 
 
-
+  
 
   def initialize(name)
     @name = name
@@ -20,6 +20,7 @@ class School
 
   end
 
-
-
 end
+
+mues = School.new
+puts mues.@roster
