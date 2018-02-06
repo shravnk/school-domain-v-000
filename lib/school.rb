@@ -1,14 +1,9 @@
 class School
 
-
-
-
   def initialize(name)
     @name = name
     @roster = {}
   end
-
-
 
   def add_student(name, grade)
     if @roster.key?(grade)
@@ -17,10 +12,9 @@ class School
       @roster[grade] = []
       @roster[grade] << name
     end
-
   end
 
 end
 
 mues = School.new("mtown upper elementary")
-puts mues.name
+puts mues.instance_variables
